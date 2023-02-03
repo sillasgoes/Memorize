@@ -10,10 +10,10 @@ import SwiftUI
 @main
 struct MemorizeApp: App {
     let persistenceController = PersistenceController.shared
-
+    let viewModel = MemoryGameViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

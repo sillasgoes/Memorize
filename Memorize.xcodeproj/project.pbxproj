@@ -13,6 +13,8 @@
 		98559545288A06AF00BA6676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98559544288A06AF00BA6676 /* Preview Assets.xcassets */; };
 		98559547288A06AF00BA6676 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98559546288A06AF00BA6676 /* Persistence.swift */; };
 		9855954A288A06AF00BA6676 /* Memorize.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98559548288A06AF00BA6676 /* Memorize.xcdatamodeld */; };
+		98A8711A298B96EF002124DC /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A87119298B96EF002124DC /* MemoryGame.swift */; };
+		98A8711C298B9773002124DC /* MemoryGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A8711B298B9773002124DC /* MemoryGameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		98559544288A06AF00BA6676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98559546288A06AF00BA6676 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		98559549288A06AF00BA6676 /* Memorize.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memorize.xcdatamodel; sourceTree = "<group>"; };
+		98A87119298B96EF002124DC /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		98A8711B298B9773002124DC /* MemoryGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9855953F288A06AC00BA6676 /* ContentView.swift */,
 				98559541288A06AF00BA6676 /* Assets.xcassets */,
 				98559546288A06AF00BA6676 /* Persistence.swift */,
+				98A87119298B96EF002124DC /* MemoryGame.swift */,
+				98A8711B298B9773002124DC /* MemoryGameViewModel.swift */,
 				98559548288A06AF00BA6676 /* Memorize.xcdatamodeld */,
 				98559543288A06AF00BA6676 /* Preview Content */,
 			);
@@ -146,6 +152,8 @@
 				98559547288A06AF00BA6676 /* Persistence.swift in Sources */,
 				9855954A288A06AF00BA6676 /* Memorize.xcdatamodeld in Sources */,
 				98559540288A06AC00BA6676 /* ContentView.swift in Sources */,
+				98A8711C298B9773002124DC /* MemoryGameViewModel.swift in Sources */,
+				98A8711A298B96EF002124DC /* MemoryGame.swift in Sources */,
 				9855953E288A06AC00BA6676 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
